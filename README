@@ -1,0 +1,14 @@
+D:\main\PROJECTS\fastapi>py -3 -m venv venv
+
+D:\main\PROJECTS\fastapi>venv\Script\activate.bat
+The system cannot find the path specified.
+
+D:\main\PROJECTS\fastapi>venv\Scripts\activate.bat
+
+(venv) D:\main\PROJECTS\fastapi>pip install fastapi[all]
+
+(venv) D:\main\PROJECTS\fastapi>pip freeze
+
+(venv) D:\main\PROJECTS\fastapi>uvicorn main:app
+
+(venv) D:\main\PROJECTS\fastapi>uvicorn main:app --reload 
